@@ -1,4 +1,4 @@
-# Yolov5 + StrongSORT with OSNet
+# Yolov5 + strongsort/botsort/deepsort/hybridsort/ocsort/bytetrack
 
 
 
@@ -26,8 +26,8 @@ This repository contains a highly configurable two-stage-tracker that adjusts to
 ## Installation
 
 ```
-git clone --recurse-submodules https://github.com/mikel-brostrom/Yolov5_StrongSORT_OSNet.git  # clone recursively
-cd Yolov5_StrongSORT_OSNet
+git clone https://github.com/mikel-brostrom/Yolov5_StrongSORT_OSNet.git  # clone recursively
+cd yolov5-tracking-xxxsort
 pip install -r requirements.txt  # install dependencies
 ```
 
@@ -68,9 +68,14 @@ $ python track.py
 <summary>Tracking methods</summary>
 
 ```bash
-$ python track.py --tracking-method strongsort
+$ python track.py --tracking-method deepocsort
+                                    strongsort
                                     ocsort
                                     bytetrack
+                                    botsort
+                                    hybridsort
+
+
 ```
   
 </details>
