@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+# Trial number:      0
+# HOTA, MOTA, IDF1:  [27.884, 11.425, 21.545]
+alpha_fixed_emb: 0.95 #控制卡尔曼滤波器的测量噪声方差
+asso_func: giou #关联函数，用于计算关联分数，这里使用 GIoU
+aw_off: false #是否关闭边缘权重
+aw_param: 0.5 # 边缘权重的参数，用于调整权重的程度
+cmc_off: false #是否关闭连续多帧合并
+conf: 0.5 #目标检测器的置信度阈值,DeepSORT 跟踪器内部使用的参数，它用于确定由物体检测器传递给跟踪器的检测结果中，哪些将被用于目标跟踪
+delta_t: 3 #两个时间步之间的时间间隔
+det_thresh: 0 #目标检测的阈值,筛选目标检测器输出的所有检测结果,控制哪些检测结果会被传递到后续处理阶段
+embedding_off: false #是否关闭嵌入向量
+inertia: 0.2 #卡尔曼滤波器预测更新中的惯性参数
+iou_thresh: 0.3 # IoU 阈值，用于确定两个边界框是否属于同一个目标
+max_age: 30 #目标的最大存活帧数，超过该帧数目标将被丢弃
+min_hits: 1 #目标被认为是真实目标所需的最小关联帧数
+new_kf_off: false #是否关闭新的卡尔曼滤波器
+w_association_emb: 0.75 #用于关联度量计算中嵌入向量的权重
