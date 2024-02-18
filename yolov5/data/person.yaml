@@ -1,0 +1,11 @@
+path: F:\V2b-lab\Cabin_cargo\yolo_tracking-8.0\yolov5\person_data//  # dataset root dir
+train: train.txt 
+val: val.txt  
+test: test.txt  
+nc: 1
+# Classes
+names: ['person']
+
+
+
+
