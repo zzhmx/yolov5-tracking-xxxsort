@@ -158,20 +158,4 @@ python track.py --source ... --save-txt
 
 </details>
 
-## Cite
 
-If you find this project useful in your research, please consider cite:
-
-```latex
-@misc{yolov5-strongsort-osnet-2022,
-    title={Real-time multi-camera multi-object tracker using YOLOv5 and StrongSORT with OSNet},
-    author={Mikel Broström},
-    howpublished = {\url{https://github.com/mikel-brostrom/Yolov5_StrongSORT_OSNet}},
-    year={2022}
-}
-```
-
-## Contact 
-
-For Yolov5 DeepSort OSNet bugs and feature requests please visit [GitHub Issues](https://github.com/mikel-brostrom/Yolov5_StrongSORT_OSNet/issues). 
-For business inquiries or professional support requests please send an email to: yolov5.deepsort.pytorch@gmail.com
