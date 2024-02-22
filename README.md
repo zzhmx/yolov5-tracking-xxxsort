@@ -33,7 +33,7 @@ This repository contains a highly configurable two-stage-tracker that adjusts to
 [yolov5-tracking-xxxsort yolov5融合六种跟踪算法（二）--目标识别](https://blog.csdn.net/weixin_45398265/article/details/136219732)
 
 ```
-git clone https://github.com/mikel-brostrom/Yolov5_StrongSORT_OSNet.git  # clone recursively
+git clone https://github.com/zzhmx/yolov5-tracking-xxxsort.git  # clone recursively
 cd yolov5-tracking-xxxsort
 pip install -r requirements.txt  # install dependencies
 ```
